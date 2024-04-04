@@ -1,17 +1,17 @@
 # WIS_WebDeployHelper
 A tool for greatly facilitating web deployment with LiveCode
 
-This is still a beta version for testing!
-
 ## Description
 This tool helps you make a more functional web deployment of a LiveCode stack than you can get with just the native standalone builder.
 
 The current version can help you do the following:
 - Modify the appearance of the web page that the LC stack resides on (your own logo, background colour etc)
-- Add code that will make the stack resize when the browser window is resized, or make the stack stay centred on the web page
-- Add code that enables pasting into fields, putting text into the clipboard and launch URLs
-- Add code that will give you access to the localStorage functionality, which enables saving data between sessions
-- Other minor javaScript helpers - more features will be added
+- Add code that will make the stack resize when the browser window is resized, or make the stack stay centered on the web page
+- Add code that enables pasting into fields and putting text into the clipboard (not in mobile browsers)
+- Add code that enables mouse wheel scrolling in all LC fields and relevant widgets (not in mobile browsers)
+- Add code that gives you access to the localStorage functionality, which enables saving data between sessions
+- Add code that enables uploading of file data from your local files (like image data and text)
+- Other minor nifty features :) 
 
 It also helps automating the deployment process, so that you with one click can get the standalone built and uploaded by ftp to your server.
 
