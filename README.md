@@ -1,5 +1,12 @@
 # WIS_WebDeployHelper
-A tool for greatly facilitating web deployment with LiveCode
+A tool for greatly facilitating web deployment with LiveCode 10
+
+## Updates
+1.0.2 (13 May 2024)
+- Enhancement: It is now possible to use the built-in Test function to deploy locally and still get all the advanced features (the html file is added to the Copy files section in the standalone builder)
+- Enhancement: Verdana (plain, bold, italic) added to web font CSS code
+- Enhancement: Build folder no longer opens automatically on Create, to prevent stacking up of folder windows. Open it manually if needed by clicking the url in the event log. 
+- Other minor fixes
 
 ## Description
 This tool helps you make a more functional web deployment of a LiveCode stack than you can get with just the native standalone builder.
