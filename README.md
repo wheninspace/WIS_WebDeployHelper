@@ -2,6 +2,9 @@
 A tool for greatly facilitating web deployment with LiveCode 10
 
 ## Updates
+1.0.3 (26 Oct 2024)
+- Enhancement: JavaScript error checking added to resize listener, reducing the rate of JavaScript-caused app crashes when running in mobile browsers
+
 1.0.2 (13 May 2024)
 - Enhancement: It is now possible to use the built-in Test function to deploy locally and still get all the advanced features (the html file is added to the Copy files section in the standalone builder)
 - Enhancement: Verdana (plain, bold, italic) added to web font CSS code
